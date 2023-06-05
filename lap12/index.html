@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAP12-CAROSEL</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+</head>
+<!---aria-controls="navbarcollapdse" aria-expanded="false" aria-label="Toggle navigation"-->
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CAROSEL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapdse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id=navbarcollapdse>
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!------------------------------ carosel-------------------------------->
+  <div class="section">
+    <div class="carousel slide" id="myCarousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!--phân slide show-->
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="image/sinhvienit_wallpaper_hd_ (6).png" class="d-block d-md-block w-100" alt="">
+          <div class=" carousel-caption text-start">
+            <h5>Example headline</h5>
+            <p>Some representative placeholder content for the first slide of the carosel</p>
+            <p><a href="" class="btn btn-lg btn-primary">Sign up Today</a></p>
+          </div>
+        </div>
+
+
+        <!---->
+
+        <div class="carousel-item text-center">
+          <img src="image/25.jpg" class="d-block w-100 img-fluid" alt="">
+          <div class="carousel-caption text-start">
+            <h5>Example headline</h5>
+            <p>Some representative placeholder content for the first slide of the carosel</p>
+            <p><a href="" class="btn btn-lg btn-primary">Learnmore</a></p>
+          </div>
+        </div>
+
+
+
+        <div class="carousel-item">
+          <img src="image/A029.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption text-start">
+
+            <h5>Example headline</h5>
+            <p>Some representative placeholder content for the first slide of the carosel</p>
+            <p><a href="" class="btn btn-lg btn-primary">Brown galely</a></p>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- phần nut bấm next and prreouss-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
+  </div>
+  </div>
+
+  <footer class="">
+    <div class="container d-flex justify-content-between">
+      <div class="ms-2">
+        <span>&copy; 2017-2021,inc</span>
+        <a href="">.privacy.</a>
+        <a href="">Tearm</a>
+      </div>
+      <div class="me-1">
+        <a href="">Back photo</a>
+      </div>
+    </div>
+
+  </footer>
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

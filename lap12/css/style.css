@@ -1,0 +1,27 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("image/sinhvienit_wallpaper_hd_\ \(6\).png");
+  width: 100%;
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("image/sinhvienit_wallpaper_hd_\ \(6\).png");
+  width: 100%;
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("image/A029.jpg");
+  width: 100%;
+  height: 100%;
+}
+.section {
+  margin-bottom: 5rem;
+}
+
+/*<img src="image/25.jpg" class="d-block w-100 img-fluid" alt="">*/
